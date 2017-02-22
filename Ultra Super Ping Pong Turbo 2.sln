@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultra Super Ping Pong Turbo 2", "Assembly-CSharp-firstpass.csproj", "{05022C8F-6996-7C01-84C6-21DBED97BC02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultra Super Ping Pong Turbo 2", "Assembly-CSharp.csproj", "{F266687A-710E-302E-C847-468B620B1ECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultra Super Ping Pong Turbo 2", "Assembly-CSharp-Editor-firstpass.csproj", "{E96A5CAE-6BCB-C305-7315-3D2FBDACFD63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05022C8F-6996-7C01-84C6-21DBED97BC02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05022C8F-6996-7C01-84C6-21DBED97BC02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05022C8F-6996-7C01-84C6-21DBED97BC02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05022C8F-6996-7C01-84C6-21DBED97BC02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F266687A-710E-302E-C847-468B620B1ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F266687A-710E-302E-C847-468B620B1ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F266687A-710E-302E-C847-468B620B1ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F266687A-710E-302E-C847-468B620B1ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E96A5CAE-6BCB-C305-7315-3D2FBDACFD63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E96A5CAE-6BCB-C305-7315-3D2FBDACFD63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E96A5CAE-6BCB-C305-7315-3D2FBDACFD63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E96A5CAE-6BCB-C305-7315-3D2FBDACFD63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
