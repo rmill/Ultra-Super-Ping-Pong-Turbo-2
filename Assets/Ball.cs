@@ -8,8 +8,8 @@ public class Ball : MonoBehaviour {
 		// Initial Velocity
 		GetComponent<Rigidbody2D>().velocity = Vector2.right * speed;
 	}
-	float hitFactor(Vector2 ballPos, Vector2 racketPos,
-		float racketHeight) {
+
+	float hitFactor(Vector2 ballPos, Vector2 racketPos, float racketHeight) {
 		// ascii art:
 		// ||  1 <- at the top of the racket
 		// ||
@@ -53,5 +53,10 @@ public class Ball : MonoBehaviour {
 			// Set Velocity with dir * speed
 			GetComponent<Rigidbody2D>().velocity = dir * speed;
 		}
+	}
+
+	public void reset() {
+		transform.position = new Vector2 (254, 239);
+		GetComponent<Rigidbody2D>().velocity *= -1;
 	}
 }

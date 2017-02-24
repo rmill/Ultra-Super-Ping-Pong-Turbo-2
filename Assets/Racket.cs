@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class RacketMove : MonoBehaviour {
+public class Racket : MonoBehaviour {
 	public float speed = 30;
 	public string axis = "Vertical";
 
